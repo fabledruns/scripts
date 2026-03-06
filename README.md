@@ -11,7 +11,15 @@ Or from a terminal:
 .\scriptname.ps1
 ```
 
----
+| Script | Language | Description |
+|--------|----------|-------------|
+| bootstrap.ps1 | PowerShell | Sets up a fresh Windows machine |
+| filescan.ps1 | PowerShell | Lists files larger than 500MB on C: |
+| ramhog.ps1 | PowerShell | Shows top 5 RAM-hungry processes |
+| sysinfo.ps1 | PowerShell | Live CPU/RAM/Disk/GPU monitor |
+| iptracer.js | JavaScript | Traces route to a domain or IP |
+| setup.bat | Batch | Downloads all scripts and runs them |
+
 
 ## bootstrap.ps1
 
@@ -19,6 +27,7 @@ Sets up a fresh Windows machine. Installs all apps, dev tools, and removes bloat
 Run as administrator. It will auto-elevate if you forget.
 
 **Installs:** Brave, VS Code Insiders, IntelliJ, WebStorm, Modrinth, Discord, WhatsApp, PowerToys, Windhawk, AFFiNE, Raycast, Blip, Git, Node.js, 7-Zip
+
 **Removes:** Xbox, Gaming App, Get Help, Groove Music, Movies & TV, Solitaire, People, News, Weather
 
 ---
