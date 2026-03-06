@@ -80,8 +80,5 @@ foreach ($app in $bloat) {
     }
 }
 
-Write-Host "`n==== Manual Installs Required ===="
-Write-Host "JW Library: https://www.jw.org/en/online-help/jw-library/jw-library-for-windows/download-jw-library-for-windows/"
-
 Write-Host "`n==== Bootstrap Complete ===="
 pause
